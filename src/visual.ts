@@ -38,7 +38,7 @@ module powerbi.extensibility.visual {
                 const new_p: HTMLElement = document.createElement("p");
                 new_p.appendChild(document.createTextNode("Current version:"));
                 const new_em: HTMLElement = document.createElement("em");
-                this.textNode = document.createTextNode("1.0.0");
+                this.textNode = document.createTextNode("1.0.1");
                 new_em.appendChild(this.textNode);
                 new_p.appendChild(new_em);
                 this.target.appendChild(new_p);
